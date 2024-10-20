@@ -1,9 +1,12 @@
-const path = require('path')
+// const path = require('path')
 
-const baseUrl = '/vuejs-camera/'
+// const baseUrl = '/vuejs-camera/'
 
 module.exports = {
   // outputDir: path.join('./docs'),
   // baseUrl,
-  css: { extract: false }
+  css: { extract: false },
+  devServer: {
+    disableHostCheck: true
+  }
 }
